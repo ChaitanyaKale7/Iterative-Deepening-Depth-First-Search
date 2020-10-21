@@ -15,7 +15,7 @@ def iddfs(visted, graph, current, depth):
     else:
         return True  
 
-# Prints path from root to goal
+# Prints path from start node to goal node
 def print_path(vertex):
     path=[]
     while parent[vertex] != -1:
